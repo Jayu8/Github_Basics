@@ -21,6 +21,7 @@ git fetch --all
 git remote add upstream git://github.com/ORIGINAL-DEV-USERNAME/REPO-YOU-FORKED-FROM.git
 git fetch upstream
 git pull upstream master
+git push origin master
 ```
 You can't merge with local modifications. Git protects you from losing potentially important changes.
 
