@@ -2,6 +2,9 @@
 git clone git@github.com:YOUR-USERNAME/YOUR-FORKED-REPO.git
 git remote add origin git@github.com:USERNAME/REPOSITORY-NAME.git
 ```
+```
+git add -A   (force push introml)
+```
 
 ```
 git pull origin master
