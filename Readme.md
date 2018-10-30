@@ -1,6 +1,8 @@
 ```git
 git clone git@github.com:YOUR-USERNAME/YOUR-FORKED-REPO.git
 git remote add origin git@github.com:USERNAME/REPOSITORY-NAME.git
+git clone https://github.com/paulboone/ticgit
+git remote add https://github.com/paulboone/ticgit
 ```
 ```
 git add -A   (force push introml)
