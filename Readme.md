@@ -7,11 +7,19 @@ git remote add https://github.com/paulboone/ticgit
 ```
 git add -A   (force push introml)
 ```
-
+Pulling and adding stuff into local from remote
 ```
 git pull origin master
 git add <filename>    (git add . for all)
 git status
+```
+Configuring remote github account in local 
+```
+git config --global user.email "123"
+git config --global user.email 123@outlook.com
+```
+Commiting to remote server
+```
 git commit -am "Description"
 git status
 git push origin master
