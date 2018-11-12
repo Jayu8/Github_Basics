@@ -1,1 +1,1 @@
-Hello common
+Hello common.
