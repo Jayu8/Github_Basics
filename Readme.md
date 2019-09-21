@@ -1,11 +1,7 @@
-```git
-git clone git@github.com:YOUR-USERNAME/YOUR-FORKED-REPO.git
-git remote add origin git@github.com:USERNAME/REPOSITORY-NAME.git
-git clone https://github.com/paulboone/ticgit
-git remote add https://github.com/paulboone/ticgit
+
 ```
-```
-git add -A   (force push introml)
+git clone <link>
+git remote set-url origin <link>
 ```
 Pulling and adding stuff into local from remote
 ```
@@ -13,7 +9,7 @@ git pull origin master
 git add <filename>    (git add . for all)
 git status
 ```
-Configuring remote github account in local 
+Configuring remote github account in local - One time
 ```
 git config --global user.email "123"
 git config --global user.email 123@outlook.com
