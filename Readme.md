@@ -1,4 +1,10 @@
+Configuring remote github account in local - One time
+```
+git config --global user.email "123"
+git config --global user.email 123@outlook.com
+```
 
+Start
 ```
 git clone <link>
 git remote set-url origin <link>
@@ -8,22 +14,12 @@ Pulling and adding stuff into local from remote
 git pull origin master
 git add <filename>    (git add . for all)
 git status
-```
-Configuring remote github account in local - One time
-```
-git config --global user.email "123"
-git config --global user.email 123@outlook.com
-```
-Commiting to remote server
-```
 git commit -am "Description"
 git status
-git push origin master
+git push origin master 
 ```
-git remove 
-```
-git rm filename
-```
+
+
 Forked Repositories 
 ```
 git fetch --all
